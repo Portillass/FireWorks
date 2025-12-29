@@ -497,15 +497,6 @@
       let msgTimer = null;
       // showMessage now accepts a text and returns a Promise that resolves when hidden
       let _msgResolve = null;
-/*************  ✨ Windsurf Command ⭐  *************/
-/**
- * Shows a message on the screen for a given duration, and returns a Promise
- * that resolves when the message is hidden.
- * @param {string} text - the text to display
- * @param {number} duration - the duration (in ms) to display the message
- * @returns {Promise} - a Promise that resolves when the message is hidden
- */
-/*******  0daf31f1-2289-4fb2-8f52-0d20a3605ccc  *******/
       function showMessage(text = 'Happy New Year', duration = 10000){
         if(!messageEl) return Promise.resolve();
         // clear any previous timer and promise
