@@ -474,7 +474,7 @@
     (function main(){
       const canvas = document.getElementById('canvas'); const engine = new FireworksEngine(canvas);
 
-      // Quotes - choose a series of inspirational quotes from past yeart 
+      // Quotes - choose a series of inspirational quotes from past yearts 
       const quotes = [
   { year: 2017, text: "Small steps every day lead to remarkable achievements.", author: "Robert Collier" },
   { year: 2018, text: "Curiosity fuels the mind to explore endless possibilities.", author: "Albert Einstein" },
@@ -495,7 +495,7 @@
 
       const messageEl = document.getElementById('happyMsg');
       let msgTimer = null;
-      // showMessage now accepts a text and returns a Promise that resolves when hidden
+      // showMessage now accepts a text and returns a Promise that resolves when hiddened
       let _msgResolve = null;
       function showMessage(text = 'Happy New Year', duration = 10000){
         if(!messageEl) return Promise.resolve();
